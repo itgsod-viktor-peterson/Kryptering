@@ -32,7 +32,7 @@ def test_encrypt_raises_ValueError_if_called_with_zero_offset():
     assert_equal(e.exception.message, 'offset must not be zero')
 
 
-def test_decrypt_returns_a_string():
+def test_encrypt_returns_a_string():
     assert_is_instance(encrypt(cleartext, offset), str)
 
 
