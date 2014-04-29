@@ -86,7 +86,7 @@ Om du vill kan du ta bort de filer som är inte är relevanta för ditt språk
 
 Om du läser kursen i ruby kan du ta bort följande filer och mappar:
 
-* lib/__init__.py
+* lib/\_\_init\_\_.py
 * lib/encryption.py
 * test/**
 
