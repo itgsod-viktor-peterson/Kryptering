@@ -95,18 +95,39 @@ till avkrypteringsfunktionen
 
 #### Kryptering ####
 
+##### Ruby #####
+
 Skapa funktionen `encrypt` i `lib/encryption.rb`
 
-Testerna finns i `/spec/encryption_spec.rb`.
+Testerna finns i `spec/encryption_spec.rb`.
 
-Kör `rspec /spec/encryption_spec.rb` för att köra testerna.
+Kör `rspec spec/encryption_spec.rb` för att köra testerna.
+
+##### Python #####
+
+Skapa funktionen `encrypt` i `lib/encryption.py`
+
+Testerna finns i `test/encryption_test.py`
+
+Kör `nosetests --rednose  test/encryption_test.py` för att köra testerna.
 
 #### Avkryptering ####
 
+##### Ruby #####
+
 Skapa funktionen `decrypt` i `lib/encryption.rb`
 
-Testerna finns i `/spec/decryption_spec.rb`. Läs dem för att förstå hur funktionen skall fungera.
-Kör `rspec /spec/decryption_spec.rb` för att köra testerna.
+Testerna finns i `spec/decryption_spec.rb`.
+
+Kör `rspec spec/decryption_spec.rb` för att köra testerna.
+
+##### Python #####
+
+Skapa funktionen `decrypt` i `lib/encryption.py`
+
+Testerna finns i `test/decryption_test.py`
+
+Kör `nosetests --rednose  test/decryption_test.py` för att köra testerna.
 
 ### Utvärdering ###
 
