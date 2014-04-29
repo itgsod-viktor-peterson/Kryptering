@@ -78,8 +78,27 @@ det vill säga, ett ord som krypterats med en förskjutning på 4 avkrypteras ge
 
 ### Versionshantering ###
 
-Skapa ett **privat** repository för projektet på Github, och bjud in mig.
-Gör *regelbundna* commits med beskrivande meddelande och synka åtminstone en gång per dag.
+Gör en `fork` av det här repot. Klona sen ner till din dator
+
+Om du vill kan du ta bort de filer som är inte är relevanta för ditt språk
+
+#### Ruby ####
+
+Om du läser kursen i ruby kan du ta bort följande filer och mappar:
+
+* lib/__init__.py
+* lib/encryption.py
+* test/**
+
+#### Python ####
+
+Om du läser kursen i python kan du ta bort föjande filer och mappar:
+
+* lib/encryption.rb
+* spec/**
+* .rspec
+* .gemfile
+
 
 ### Flödesschema ###
 
